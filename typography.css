@@ -1,0 +1,11 @@
+:root{--font-sans:"PingFang SC","Microsoft YaHei UI","Microsoft YaHei","Noto Sans CJK SC",sans-serif;--font-serif:"Iowan Old Style","Palatino Linotype","Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif}
+body{font-family:var(--font-sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;line-height:1.65}
+.brand,h1,.journal-heading h2,.aside-note p,dialog h2,.record b,.draw-book b{font-family:var(--font-serif)}
+.brand{font-weight:600;letter-spacing:2.5px}.brand span{font-family:var(--font-sans);letter-spacing:1.6px}
+h1{font-weight:500;letter-spacing:1px;line-height:1.46}.intro p{font-size:13px;line-height:1.95;letter-spacing:.3px;color:#77816f}
+.draw-book b{display:block;font-weight:500;letter-spacing:7px;line-height:1.6}.draw-book small{letter-spacing:2.3px}
+.journal-heading h2{font-weight:500;letter-spacing:1px}.section-top h2{font-weight:550;font-variant-numeric:tabular-nums;letter-spacing:.3px}
+.eyebrow{letter-spacing:2.1px}.pane-heading h3{font-weight:550;letter-spacing:.4px;line-height:1.8}.pane-heading p,.tip{line-height:1.9}
+.tabs span{font-family:var(--font-sans);letter-spacing:.35px}.day,.date-badge,.tabs em{font-variant-numeric:tabular-nums}.meal-bottom strong{font-weight:550;letter-spacing:1px}
+.primary{font-weight:500;letter-spacing:.3px}input{line-height:1.5}.article-dialog h1{font-family:var(--font-sans);font-weight:650;letter-spacing:0}
+@media(max-width:640px){.intro h1{font-size:28px;letter-spacing:0;line-height:1.6}.intro p{font-size:11px;line-height:1.9}.brand{font-size:23px;letter-spacing:2px}.draw-book b{font-size:16px;letter-spacing:4px}.journal-heading h2{font-size:23px;letter-spacing:.4px}.pane-heading p{font-size:11px}.tip{font-size:10px}.entry-form label{font-size:12px}.entry-form input,dialog input{font-size:16px}}
